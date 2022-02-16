@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
-    font-family: Roboto;
+    font-family: Arial;
+    transition: all .5s ease;
 }
 a{
     text-decoration: none;
@@ -34,8 +35,42 @@ a{
     padding-bottom: 12px;
     background: #0076C0;
     color:#FFFFFF;
-    border: none;
+    border: solid 1px #0076C0;
 }
 .btn:hover{
     cursor: pointer;
+    background: #FFFFFF;
+    color:#0076C0;
+}
+
+@media (max-width: 1366px){
+    .container{
+        max-width: 1000px;
+    }
+}
+
+@media (max-width: 1000px){
+    .container{
+        max-width: 600px;
+    }
+    .todo__container-form{
+        flex-direction: column;
+    }
+}
+@media (max-width:600px) {
+    .container{
+        max-width: 400px;
+    }
+}
+@media (max-width: 420px){
+    *{
+        font-size: 15px;
+    }
+    .container{
+        max-width: 360px;
+    }
+    .todo__container-form{
+        flex-direction: column;
+    }
+    
 }

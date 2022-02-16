@@ -119,7 +119,7 @@ export default {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 .container-main__left{
   flex: 0 0 60%;
@@ -194,6 +194,7 @@ export default {
 }
 .footer{
   background: #333333;
+  margin-top: 50px;
 }
 .footer__navigation{
   display: flex;
@@ -223,5 +224,22 @@ line-height: 156.69%;
 }
 .footer__copyright-text{
   margin: 0;
+}
+
+@media (max-width: 1000px){
+  .container-main{
+    flex-direction: column;
+  }
+}
+@media (max-width: 600px){
+  .footer__nav-bar{
+    display: none;
+  }
+  .footer__copyright{
+    display: none;
+  }
+  .footer__navigation{
+    border-bottom: none;
+  }
 }
 </style>
