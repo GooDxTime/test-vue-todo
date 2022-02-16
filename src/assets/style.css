@@ -31,6 +31,7 @@ a{
     text-align: center;
 }
 .btn{
+    margin: 5px;
     padding-top: 12px;
     padding-bottom: 12px;
     background: #0076C0;

@@ -59,7 +59,6 @@ export default {
     inValid:{
       name:false,
       password:false
-      
     }
   }),
   methods:{
@@ -87,7 +86,7 @@ export default {
       }
     },
     giveDataLogin(){
-      alert('name: Admin, password: 12345')
+      alert('[name: Admin, password: 12345] and [name: User, password: 54321]')
     }
   }
 }

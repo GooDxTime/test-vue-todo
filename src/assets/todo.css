@@ -1,0 +1,164 @@
+.modal-edit__card{
+    background: #FFFFFF;
+    width: 60%;
+  }
+  .logout-link{
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    margin-right: 25px;
+    margin-top: 25px;
+  }
+  .todo__form-input{
+    flex-direction: column;
+    width: 100%;
+  }
+  .todo__container-form-btn{
+    margin-top: 15px;
+  }
+  .todo__form-checkbox{
+    visibility: hidden;
+  }
+  .modal-edit__card-header{
+    margin: 20px 20px;
+    font-size: 24px;
+  }
+  .main-bg{
+    background: linear-gradient(#00A9E7,#005B9F);
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .modal-edit{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .todo{
+    display: flex;
+    flex-direction: column;
+  }
+  .todo__logo{
+    width: 186px;
+    height: 119px;
+    margin: 65px auto;
+  }
+  .todo__container{
+    background: #FFFFFF;
+    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.1);
+  }
+  .todo__container-form{
+    padding: 20px;
+    margin: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .todo__container-form-border{
+    border-bottom: solid 1px black;
+  }
+  .todo__form-input-container{
+    width: 60%;
+    flex-direction: column;
+  }
+  .dialog-input{
+    width: 100%;
+  }
+  .dialog-input-status{
+    align-items: flex-end;
+  }
+  .todo__form-label{
+    margin-top: 15px;
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .todo__container-header{
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 156.69%;
+    text-align: center;
+  }
+  .todo__container-small-header{
+    font-size: 20px;
+    line-height: 156.69%;
+    text-align: center;
+    margin: 20px auto;
+  }
+  .todo__list{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 25px;
+  }
+  .todo__list-item{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .todo__form-input{
+    padding: 5px 10px;
+    font-size: 18px;
+  }
+  .todo__form-textarea{
+    padding: 5px 10px;
+    resize: none;
+    font-size: 18px;
+  }
+  .todo__list-item-title{
+    flex: 0 0 20%;
+  }
+  .todo__form-label_status:hover{
+    cursor: pointer;
+  }
+  .todo__list-item-descr{
+    flex: 0 0 45%;
+    margin: 0;
+    padding: 5px 5px;
+  }
+  .todo__list-item-status{
+    flex: 0 0 10%;
+    margin: 0;
+  }
+  .todo__list-item-buttons{
+    flex: 0 0 25%;
+  }
+  .btn-edit{
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 1000px){
+    .todo__container-header{
+      font-size: 30px;
+    }
+  }
+  @media (max-width: 600px){
+    .todo__list-item{
+      flex-wrap: wrap;
+    }
+    .dialog-textarea{
+      height: 200px;
+    }
+    .todo__list-item-title{
+    flex: 0 0 25%;
+    }
+    .todo__list-item-descr{
+      flex: 0 0 60%;
+      margin: 0;
+      padding: 5px 5px;
+    }
+    .todo__list-item-status{
+      flex: 0 0 15%;
+      margin: 0;
+    }
+    .todo__list-item-buttons{
+      flex: 1 0 100%;
+    }
+  }

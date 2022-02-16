@@ -20,5 +20,5 @@ export default {
 </script>
 
 <style>
-@import url("../assets/main.css");
+@import url("../assets/login.css");
 </style>

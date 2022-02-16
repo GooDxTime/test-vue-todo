@@ -60,7 +60,6 @@
   }
   .container-main__form-bg{
     background: #FFFFFF;
-  
     padding: 0 40px;
     padding-bottom: 23px;
   }
@@ -137,6 +136,9 @@
   @media (max-width: 1000px){
     .container-main{
       flex-direction: column;
+    }
+    .container-main__header{
+      font-size: 35px;
     }
   }
   @media (max-width: 600px){
