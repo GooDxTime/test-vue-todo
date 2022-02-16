@@ -1,13 +1,17 @@
 <template>
   <div>
-    <router-link to="/login"><h2>LOGIN</h2></router-link>
-    <router-link to="/todo"><h2>Todo</h2></router-link>
   </div>
 </template>
 
 <script>
 export default {
-
+  beforeCreate(){
+    if(this.$store.state.statusLogin){
+      this.$router.push('/todo')
+    }else{
+      this.$router.push('/login')
+    }
+  }
 }
 </script>
 
