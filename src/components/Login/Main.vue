@@ -7,15 +7,15 @@
           <ul class="container-main__list">
             <li class="container-main__list-item">
               <strong>Interactive Reporting</strong>
-              <p>In just a few clicks, you can connect your data from 1C, CRM (Bitrix24, AmoCRM, ZohoCRM), E-commerce (PROM.UA, Rozetka, ebay), Logistic (Nova Poshta), Google Analytics and many more systems that reflect different aspects of business activities.</p>
+              <p class="container-main__list-text">In just a few clicks, you can connect your data from 1C, CRM (Bitrix24, AmoCRM, ZohoCRM), E-commerce (PROM.UA, Rozetka, ebay), Logistic (Nova Poshta), Google Analytics and many more systems that reflect different aspects of business activities.</p> 
             </li>
             <li class="container-main__list-item">
               <strong>Automated data updates</strong>
-              <p>The application automatically updates and structures the data in just 60 seconds, saving you time and money.</p>
+              <p class="container-main__list-text">The application automatically updates and structures the data in just 60 seconds, saving you time and money.</p>
             </li>
             <li class="container-main__list-item">
               <strong>Data Security</strong>
-              <p>The Bank guarantees the safety of your personal data, ensuring their integrity and confidentiality.</p>
+              <p class="container-main__list-text">The Bank guarantees the safety of your personal data, ensuring their integrity and confidentiality.</p>
             </li>
           </ul>
         </div>
